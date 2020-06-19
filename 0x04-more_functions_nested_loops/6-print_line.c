@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  * print_line - print the line n times
  * @n: the lines to print
@@ -12,9 +11,7 @@ void print_line(int n)
 	if (n > 0)
 	{
 		for (m = 0; m < n; m++)
-		{
 			_putchar('_');
-		}
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
